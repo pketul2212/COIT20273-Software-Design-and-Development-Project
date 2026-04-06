@@ -1,4 +1,4 @@
-# AI-Based Cognitive Health App
+# 🤖 AI-Based Cognitive Health App
 
 ## Team Details
 |          Name          | StudentID |
