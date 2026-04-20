@@ -1,0 +1,11 @@
+POST /generate-exercise
+
+Request:
+{
+  "level": "easy"
+}
+
+Response:
+{
+  "exercise": "Remember 5 objects and recall them after 30 seconds."
+}
