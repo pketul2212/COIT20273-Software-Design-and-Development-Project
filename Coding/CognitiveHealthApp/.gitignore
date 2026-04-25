@@ -1,10 +1,50 @@
+# =========================
+# Gradle & Build
+# =========================
+.gradle/
+build/
+*/build/
+
+# =========================
+# Local Config (IMPORTANT)
+# =========================
+local.properties
+
+# =========================
+# IDE (Android Studio / IntelliJ)
+# =========================
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea
+
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# =========================
+# OS Files
+# =========================
 .DS_Store
-/build
+Thumbs.db
+
+# =========================
+# Generated / Build Outputs
+# =========================
 /captures
-.externalNativeBuild
-.cxx
-app/build
+.externalNativeBuild/
+.cxx/
+
+# =========================
+# Logs & Temp
+# =========================
+*.log
+*.tmp
+*.temp
+
+# =========================
+# Keystore (VERY IMPORTANT)
+# =========================
+*.jks
+*.keystore
