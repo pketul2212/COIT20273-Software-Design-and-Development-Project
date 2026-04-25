@@ -1,3 +1,25 @@
 <resources>
-    <string name="app_name">CognitiveHealthApp</string>
+    <!-- App name -->
+    <string name="app_name">Cognitive Health App</string>
+
+    <!-- MainActivity -->
+    <string name="main_title">Cognitive Health App</string>
+    <string name="main_username_hint">Enter Username</string>
+    <string name="main_password_hint">Enter Password</string>
+    <string name="main_login">Login</string>
+
+    <!-- DashboardActivity -->
+    <string name="dashboard_welcome">Welcome to Cognitive Health Dashboard</string>
+    <string name="start_exercise">Start Brain Exercise</string>
+    <string name="view_report">View Progress Report</string>
+
+    <!-- ExerciseActivity -->
+    <string name="exercise_question_placeholder">Question will appear here</string>
+    <string name="exercise_answer_hint">Enter your answer</string>
+    <string name="exercise_submit">Submit</string>
+
+    <!-- ResultsActivity -->
+    <string name="results_placeholder">Results will appear here</string>
+    <string name="quiz_result">You scored %1$d out of %2$d</string>
+    <string name="restart_quiz">Restart Quiz</string>
 </resources>
