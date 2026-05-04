@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#F5F7FA"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Brain Exercise 🧠"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#1E3A5F"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/conditionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Condition: General"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#5F6F7A"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/questionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q1: What is 5 + 3?"
+        android:textSize="20sp"
+        android:textColor="#263238"
+        android:background="#FFFFFF"
+        android:padding="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/answerInput"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Type your answer"
+        android:inputType="text"
+        android:background="#FFFFFF"
+        android:padding="14dp" />
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Submit Answer"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#27AE60"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
