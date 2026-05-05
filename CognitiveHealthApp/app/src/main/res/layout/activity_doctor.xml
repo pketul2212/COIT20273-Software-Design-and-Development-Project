@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Find a Doctor"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#1E3A5F"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book appointments with cognitive health specialists"
+            android:textSize="15sp"
+            android:textColor="#5F6F7A"
+            android:layout_marginBottom="18dp" />
+
+        <!-- Doctor 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="18dp"
+            android:layout_marginBottom="14dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dr. John Smith"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#263238" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cognitive Health Specialist"
+                android:textSize="16sp"
+                android:textColor="#2F80ED"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rating: 4.8/5 | Location: Melbourne\nAvailable: Mon-Fri, 9:00 AM - 5:00 PM"
+                android:textSize="15sp"
+                android:textColor="#555555"
+                android:lineSpacingExtra="5dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/bookBtn"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="Book Appointment"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:backgroundTint="#2F80ED" />
+        </LinearLayout>
+
+        <!-- Doctor 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="18dp"
+            android:layout_marginBottom="14dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dr. Emma Wilson"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#263238" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Neurologist"
+                android:textSize="16sp"
+                android:textColor="#27AE60"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rating: 4.6/5 | Location: Sydney\nAvailable: Tue-Sat, 10:00 AM - 4:00 PM"
+                android:textSize="15sp"
+                android:textColor="#555555"
+                android:lineSpacingExtra="5dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/bookBtn2"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="Book Appointment"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:backgroundTint="#27AE60" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
