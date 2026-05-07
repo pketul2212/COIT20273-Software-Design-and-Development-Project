@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/welcomeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome, User 👋"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#1E3A5F" />
+
+        <TextView
+            android:id="@+id/conditionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Condition: None"
+            android:textSize="16sp"
+            android:textColor="#555555"
+            android:layout_marginBottom="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="12dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Today's Activity"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✔ Memory Quiz\n✔ Math Puzzle\n✔ 5 min Meditation"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/exerciseBtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Start Exercise"
+            android:backgroundTint="#27AE60"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/chatbotBtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="AI Chatbot"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#2F80ED"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/doctorBtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Find Doctor"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#2F80ED"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>
